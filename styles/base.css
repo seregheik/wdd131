@@ -38,6 +38,10 @@ nav a {
     color: #fff;
 }
 
+nav a:hover {
+    color: #777777;
+}
+
 h2 {
     width: 100%;
     text-align: center;
