@@ -98,6 +98,10 @@ h2 {
     font-size: 1rem;
 }
 
+ul li {
+    padding-bottom: 1rem;
+}
+
 footer {
     background-color: #1D4D72;
     display: flex;
