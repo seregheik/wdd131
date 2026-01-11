@@ -16,8 +16,9 @@ main {
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
 } 
-h1 {
+#course-title {
     color: white;
+    font-size: 2rem;
     font-weight: 300;
     padding: 2rem 0;
 }
@@ -39,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #777777;
+    color: #cbcbcb;
 }
 
 h2 {
