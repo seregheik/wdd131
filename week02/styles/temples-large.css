@@ -1,0 +1,26 @@
+@media (min-width: 1000px) {
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+    }
+
+    nav {
+        display: flex; 
+        flex-direction: row;
+        background-color: transparent; 
+        gap: 0; 
+        grid-column: auto;
+    }
+    
+    nav a {
+        padding: 1rem 1.5rem;
+        font-size: 1.3rem;
+    }
+    
+ 
+}
