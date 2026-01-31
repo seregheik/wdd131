@@ -47,10 +47,10 @@ main {
 }
 
 section {
-    background: white;
+    background: #ffffff;
     padding: 1.5rem;
-    border: 1px solid #ddd;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 1px solid #dddddd;
+    box-shadow: 0 2px 5px #0000001a;
 }
 
 section h2 {
@@ -68,7 +68,7 @@ ul {
 
 ul li {
     padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #eeeeee;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -136,14 +136,14 @@ footer {
         grid-column: 1 / 2;
         grid-row: 1;
         z-index: 2;
-        background: rgba(255, 255, 255, 0.9);
+        background: #ffffffe6;
     }
     
     .weather {
         grid-column: 3 / 4;
         grid-row: 1;
         z-index: 2;
-        background: rgba(255, 255, 255, 0.9);
+        background: #ffffffe6;
     }
 
     .weather-icon-mobile {
