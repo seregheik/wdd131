@@ -54,7 +54,6 @@ section {
 }
 
 section h2 {
-    text-align: center;
     background-color: var(--secondary-color);
     padding: 1rem;
     margin-left: -3rem;
