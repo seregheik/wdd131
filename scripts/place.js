@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const temperature = 10;
     const windSpeed = 5;
-    // const condition = "Partly Cloudy";
 
 
     function calculateWindChill(temp, speed) {
@@ -20,8 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function displayWindChill() {
-        // const tempElement = document.getElementById('temp');
-        // const windElement = document.getElementById('wind');
         const windChillElement = document.getElementById('wind-chill');
 
 
