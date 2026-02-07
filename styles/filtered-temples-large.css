@@ -33,6 +33,9 @@
         gap: 0.5rem;
         min-height: 100px;
     }
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
     
  
 }
