@@ -18,7 +18,7 @@ const temples = [
     dedicationYear: 2005,
     area: 11500,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+      "images/aba-nigeria.jpg"
   },
   {
     templeName: "Manti Utah",
@@ -27,7 +27,7 @@ const temples = [
     dedicationYear: 1888,
     area: 74792,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
+      "images/manti-utah.jpg"
   },
   {
     templeName: "Payson Utah",
@@ -36,7 +36,7 @@ const temples = [
     dedicationYear: 2015,
     area: 96630,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+      "images/payson-utah.jpg"
   },
   {
     templeName: "Yigo Guam",
@@ -45,7 +45,7 @@ const temples = [
     dedicationYear: 2020,
     area: 6861,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+      "images/yigo-guam.jpg"
   },
   {
     templeName: "Washington D.C.",
@@ -54,7 +54,7 @@ const temples = [
     dedicationYear: 1974,
     area: 156558,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+      "images/washington-dc.jpeg"
   },
   {
     templeName: "Lima Perú",
@@ -63,7 +63,7 @@ const temples = [
     dedicationYear: 1986,
     area: 9600,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+      "images/lima-peru.jpg"
   },
   {
     templeName: "Mexico City Mexico",
@@ -72,7 +72,7 @@ const temples = [
     dedicationYear: 1983,
     area: 116642,
     imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "images/mexico-city.jpg"
   },
   // Add more temple objects here...
   {
@@ -82,7 +82,7 @@ const temples = [
     dedicationYear: 2024,
     area: 21999,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/mendoza-argentina-temple/mendoza-argentina-temple-51739-main.jpg"
+      "images/mendoza-argentina.jpg"
   }, {
     templeName: "Ogden Utah Temple",
     location: "Ogden, Utah, United States",
@@ -90,7 +90,7 @@ const temples = [
     dedicationYear: 1972,
     area: 112232,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/ogden-utah-temple/ogden-utah-temple-38445-main.jpg"
+      "images/ogden-utah.jpg"
   }, {
     templeName: "Copenhagen Denmark Temple",
     location: "Copenhagen, Denmark",
@@ -98,7 +98,7 @@ const temples = [
     dedicationYear: 2004,
     area: 25000,
     imageUrl:
-      "https://churchofjesuschristtemples.org/assets/img/temples/copenhagen-denmark-temple/copenhagen-denmark-temple-16169-main.jpg"
+      "images/copenhagen-denmark.jpg"
   },
 ];
 
