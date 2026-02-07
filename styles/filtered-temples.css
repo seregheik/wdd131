@@ -1,0 +1,109 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    background-color: brown;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+#menu {
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+    justify-self: end;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+header h1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    grid-column: 1 / 4;
+    text-align: center;
+    background-color: #a52a2a;
+}
+
+nav.show {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    padding: 1rem;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: brown;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+h1 {
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: start;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+figure {
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+.text-area {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    min-height: 100px;
+}
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    background-color: brown;
+    color: white;
+    padding: 1rem;
+}
+
+
